@@ -11,7 +11,7 @@ function display(num)
   displayscreen.innerHTML=currentvalue;
 }
 
-function clearscreen()
+function clearScreen()
 {
     displayscreen.style.background="#D3D3D3";
     boxElement.style.background="#32DD7D";
