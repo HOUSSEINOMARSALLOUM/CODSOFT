@@ -1,43 +1,25 @@
-var currentvalue="";
-var displayscreen=document.getElementById("display");
+let currentvalue = "";
+const displayscreen = document.getElementById("display");
 const boxElement = document.querySelector('#whole');
 
-function display(num)
-{
-  displayscreen.style.background="#D3D3D3";
-  boxElement.style.background="#32DD7D";
-  boxElement.style.transform = 'scale(1)';
-  currentvalue+=num;
-  displayscreen.innerHTML=currentvalue;
+function display(num) {
+    boxElement.style.transform = 'scale(1)';
+    currentvalue += num;
+    displayscreen.innerHTML = currentvalue;
 }
 
-function clearScreen()
-{
-    displayscreen.style.background="#D3D3D3";
-    boxElement.style.background="#32DD7D";
+function clearScreen() {
     boxElement.style.transform = 'scale(1)';
     currentvalue = '';
     displayscreen.innerHTML = currentvalue;
 }
 
-function equals()
-{
-  try{
-    displayscreen.style.background="#D3D3D3";
-    boxElement.style.transform = 'scale(1.2)';
-      currentvalue=eval(currentvalue);
-      displayscreen.innerHTML=currentvalue;
+function equals() {
+    try {
+        boxElement.style.transform = 'scale(1.2)';
+        currentvalue = new Function('return ' + currentvalue)();
+        displayscreen.innerHTML = currentvalue;
+    } catch (error) {
+        displayscreen.innerHTML = "ERROR";
     }
-  catch(error)
-  {
-    displayscreen.innerHTML="ERROR";
-    boxElement.style.background="#FF2E2E";
-    displayscreen.style.background="#FF2E2E";
-   
-  }
 }
-
-
-    
-
-
