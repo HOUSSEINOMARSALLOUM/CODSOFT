@@ -48,3 +48,56 @@ While this calculator project serves its purpose, future improvements could incl
 Feel free to contribute or customize this project according to your needs!
 
 &copy; 2023 CODSOFT CALCULATOR
+
+
+## CODSOFT-Landing Page
+
+Welcome to the CODSOFT-Landing Page project! This landing page is designed to showcase CODSOFT's innovative solutions and invite users to explore the future of technology with CODSOFT.
+
+## Features
+
+- Responsive design for various screen sizes.
+- Toggle between light and dark mode.
+- Smooth animations and transitions.
+- Mobile-friendly hamburger menu.
+- Integration with Font Awesome for icons.
+
+## Getting Started
+
+1. Clone the repository.
+2. Open the project folder.
+3. Open the `index.html` file in your web browser.
+
+## Project Structure
+
+- **cssLAN.css**: Contains the styles for the landing page.
+- **scriptLAN.js**: Manages the interactive elements and animations.
+- **img**: Folder containing images used in the landing page.
+- **README.md**: Project documentation.
+
+## Customization
+
+To customize the landing page:
+
+1. Modify the content in the HTML file (`index.html`) to suit your needs.
+2. Adjust styles in the CSS file (`cssLAN.css`) to change the visual appearance.
+3. Modify the JavaScript file (`scriptLAN.js`) for additional interactivity.
+
+## Responsive Design
+
+The landing page is designed to be responsive across various screen sizes. Media queries in the CSS file ensure a seamless user experience on both desktop and mobile devices.
+
+## Dependencies
+
+- [Font Awesome](https://fontawesome.com/): Used for icons.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+&copy; CODSOFT LANDING-PAGE 2023
+
