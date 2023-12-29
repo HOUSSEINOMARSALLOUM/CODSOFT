@@ -1,0 +1,134 @@
+/* Reset default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* Hero section styles */
+#hero {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+/* About section styles */
+#about {
+    background-color: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#about h2 {
+    color: #343a40;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#about p {
+    color: #555;
+    font-size: 1.2rem;
+}
+/* Skills section styles */
+#skills {
+    background-color: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#skills h2 {
+    color: #343a40;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#skills p {
+    color: #555;
+    font-size: 1.2rem;
+}
+/* Portfolio section styles */
+#portfolio {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#portfolio h2 {
+    color: #343a40;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #343a40;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#contact p {
+    color: #555;
+    font-size: 1.2rem;
+}
+
+/* Form styles */
+.form-control {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

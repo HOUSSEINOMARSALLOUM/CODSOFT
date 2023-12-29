@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CODSOFT PORFOLIO is an interactive portfolio used to present developer skills" />
+    <meta property="og:title" content="Calculator">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://127.0.0.1:3000/LEVEL 1/PORTFOLIO/indexPort.html">
+    <meta property="og:description" content="CODSOFT PORFOLIO is an RESPONSIVE interactive portfolio">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="CODSOFT PORFOLIO">
+    <title>Dev Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cssPort.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Houssein Omar Salloum</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 mx-auto">
+                        <h1>Developer Portfolio</h1>
+                        <p>Welcome to my portfolio! I'm passionate about creating and designing user-friendly applications. I specialize in both front-end and back-end development projects.</p>
+                        <button type="text" class="btn btn-primary" id="ViewMyWork">View My Work</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>About Me</h2>
+                        <p>Hi, I'm Houssein, a full-stack developer with a focus on creating aesthetically pleasing and intuitive user experiences. I'm always challenging myself to learn new skills and techniques to stay up to date with the latest technology trends.I'm a software developer with a strong background in programming languages like Javascript, Python, and C#. I am specialize in developing scalable and maintainable applications for businesses and clients. As a developer, I believe that understanding the user’s needs, goals, and requirements is crucial for creating high-quality software. I'm dedicated to delivering top-notch applications that enhance the user's experience. Outside of work, you can find me hiking in nature or practicing my photography skills.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Skills and Expertise</h2>
+                        <p>Languages
+
+                            JavaScript
+                            
+                            HTML/CSS
+                            
+                            Python
+                            
+                            Frameworks/Libraries
+                            
+                            React
+                            
+                            Bootstrap
+                            
+                            jQuery
+                            
+                            Database Systems
+                            
+                            MySQL
+                            
+                            MongoDB
+                            
+                            Firebase</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>My Portfolio</h2>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a href="#">
+                                    <img src="images/portfolio3.jpg" alt="Portfolio Item 3" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="#">
+                                    <img src="images/portfolio2.jpg" alt="Portfolio Item 2" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="#">
+                                    <img src="images/portfolio1.jpg" alt="Portfolio Item 1" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Contact Me</h2>
+                        <p class="lead">Feel free to contact me to discuss any further inquiries you may have about my work. I would be happy to answer any questions you may have.</p>
+                        <form name="sentMessage" id="contactForm" novalidate>
+                            <div class="control-group form-group">
+                                <div class="controls">
+                                    <label for="name">Full Name:</label>
+                                    <input type="text" class="form-control" id="name" required
+                                        data-validation-required-message="Please enter your name.">
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <div class="control-group form-group">
+                                <div class="controls">
+                                    <label for="email">Email Address:</label>
+                                    <input type="email" class="form-control" id="email" required
+                                        data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; CODSOFT PORFOLIO 2023
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
